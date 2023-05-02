@@ -62,7 +62,7 @@
   color: var(--color-list);
 }
 .descr-container {
-padding: 32px 0;
+  padding: 32px 0;
 }
 
 .card-text {
@@ -174,17 +174,17 @@ padding: 32px 0;
   fill: var(--color-cloud);
 }
 .social-link {
+  display: flex;
   width: 100%;
   height: 100%;
   background-color: var(--color-iris);
   border-radius: 50%;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.social-link:hover .socials-icon,
-.social-link:focus .socials-icon {
+.social-link:hover,
+.social-link:focus {
   background-color: var(--color-ocean);
 }
 
@@ -224,6 +224,8 @@ button {
 /* header */
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-logo {
   margin-right: 76px;
@@ -335,7 +337,7 @@ button {
 .section-pad-bot {
   padding-bottom: 120px;
 }
-.principles-icons{
+.principles-icons {
   display: flex;
   align-items: center;
   justify-content: center;
