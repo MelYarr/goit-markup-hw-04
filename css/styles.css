@@ -321,8 +321,7 @@ button {
 }
 /* footer socials */
 .footer-social{
-  padding-top: 100px;
-  padding-left: 540px;
+ 
 }
 .footer-social-list {
   display: flex;
@@ -351,6 +350,26 @@ button {
 .footer-social-link:focus {
   background-color: var(--color-green);
 }
+
+.footer-p {
+  width: 264px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-cloud);
+}
+.footer {
+  display: flex;
+  align-items: baseline;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--color-navy-blue);
+}
+.footer-descr{
+  width: 100px;
+  margin-right: 120px;
+}
+
 
 /* body */
 
@@ -470,22 +489,6 @@ button {
   overflow: hidden;
 }
 
-.footer-p {
-  width: 264px;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-cloud);
-}
-.footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: var(--color-navy-blue);
-}
-.footer-descr{
-  width: 100px;
-}
-
 /************* portfolio ************/
 
 .port-filter {
@@ -527,3 +530,4 @@ button {
   border: 1px solid var(--color-cornflower);
   border-top: none;
 }
+
