@@ -55,7 +55,6 @@
   color: var(--color-grey);
 }
 .p-text-style {
-  width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -159,6 +158,18 @@
     (100% - var(--indent) * (var(--items-p) - 1)) / var(--items-p)
   );
 }
+.socials{
+  display: flex;
+  gap: 24px;
+}
+.social-item{
+  padding-top: 8px;
+}
+.socials-icon:hover,
+.socials-icon:focus{
+
+}
+
 /* reset */
 h1,
 h2,
@@ -306,6 +317,7 @@ button {
 .section-pad-bot {
   padding-bottom: 120px;
 }
+
 .principles-section {
   display: flex;
 }
@@ -318,7 +330,7 @@ button {
 
 .team-card {
   width: 264px;
-  height: 380px;
+  height: 428px;
   background-color: var(--background-color);
 }
 .doing-list {
@@ -328,6 +340,7 @@ button {
 .our-team-section {
   background-color: var(--color-cloud);
 }
+
 
 /* hero */
 .hero {
@@ -389,12 +402,6 @@ button {
   display: flex;
   justify-content: center;
   gap: 24px;
-}
-.p-text-style {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-list);
 }
 .port-btn {
   padding: 12px 24px;
