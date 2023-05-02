@@ -335,6 +335,8 @@ button {
 color: var(--background-color);
 margin-bottom: 16px;
 font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 .footer-social-list {
   display: flex;
@@ -380,6 +382,7 @@ font-weight: 500;
 }
 .footer-descr {
   width: 264px;
+  margin-right: 120px;
 }
 
 /* body */
