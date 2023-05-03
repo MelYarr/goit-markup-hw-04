@@ -535,6 +535,9 @@ letter-spacing: 0.02em;
   border: 1px solid var(--color-cornflower);
   border-top: none;
 }
+.portfolio-card-link{
+  display: block;
+}
 .portfolio-card-link:hover,
 .portfolio-card-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
