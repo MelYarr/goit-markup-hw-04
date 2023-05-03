@@ -36,7 +36,6 @@ button {
 
 .link {
   text-decoration: none;
-  display: block;
 }
 .list {
   list-style: none;
@@ -123,6 +122,11 @@ button {
   letter-spacing: 0.02em;
   color: var(--color-grey);
 }
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-ocean);
+}
+
 .hero-btn {
   display: block;
   min-width: 169px;
@@ -253,28 +257,16 @@ button {
 
 .logo {
   margin-right: 76px;
-  width: 115px;
-  height: 21px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
 }
 .logo-style {
-  width: 71px;
-  height: 21px;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--color-navy-blue);
 }
 
@@ -315,12 +307,18 @@ button {
   padding-top: 100px;
 }
 .address-link {
+  padding: 24px 0 24px 0;
   display: block;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-list);
 }
+.address-link:hover,
+.address-link:focus {
+  color: var(--color-ocean);
+}
+
 .address {
   font-style: normal;
   margin-left: auto;
@@ -389,11 +387,6 @@ letter-spacing: 0.02em;
   font-family: "Roboto", sans-serif;
   color: var(--color-list);
   background-color: var(--background-color);
-}
-
-.link:hover,
-.link:focus {
-  color: var(--color-ocean);
 }
 
 .section {
